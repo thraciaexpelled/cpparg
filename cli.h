@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
 
-#ifndef CPKGS_CLI_H
-#define CPKGS_CLI_H
+#ifndef CLI_H
+#define CLI_H
 
 class CLI
 {
@@ -12,4 +12,4 @@ public:
     static auto GetOptions(std::vector<std::string> v) -> std::vector<std::string>;
 };
 
-#endif // CPKGS_CLI_H
+#endif // CLI_H
